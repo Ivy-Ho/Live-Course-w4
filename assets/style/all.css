@@ -83,15 +83,6 @@ a {
   color: #AA0601; }
 
 /*font-weight設定 */
-.fw-medium {
-  font-weight: 500; }
-
-.fw-bold {
-  font-weight: 700; }
-
-.fw-black {
-  font-weight: 900; }
-
 /* margin設定 */
 .mb-8 {
   margin-bottom: 8px; }
@@ -236,7 +227,8 @@ html, body {
     .nav .nav-hamburger {
       display: block;
       position: absolute;
-      left: 16px; }
+      left: 16px;
+      top: 22.5px; }
     .nav .nav-dropdown {
       display: block;
       position: absolute;
