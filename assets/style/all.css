@@ -869,19 +869,19 @@ html, body {
       background-color: #ccc; }
     .contact .checkmark input:checked ~ .checkmark::after {
       display: block; }
-    .contact .checkmark .btn-submit {
-      display: block;
-      width: 180px;
-      height: 54px;
-      background: #AA0601;
-      font-size: 16px;
-      color: #fff;
-      margin: 0 auto;
-      cursor: pointer;
-      border: none;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Noto Sans TC", Roboto, "Helvetica Neue", Arial, sans-serif; }
-      .contact .checkmark .btn-submit:hover {
-        background: #7d0502; }
+  .contact .btn-submit {
+    display: block;
+    width: 180px;
+    height: 54px;
+    background: #AA0601;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Noto Sans TC", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .contact .btn-submit:hover {
+      background: #7d0502; }
 
 @media (max-width: 992px) {
   .contact {
