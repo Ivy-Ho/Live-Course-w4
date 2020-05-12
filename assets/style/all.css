@@ -62,6 +62,13 @@ a {
   text-decoration: none;
   color: inherit; }
 
+input {
+  -webkit-appearance: none;
+  /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+  -moz-appearance: none;
+  /* FireFox */
+  appearance: none; }
+
 /* css reset end */
 /* 字體顏色設定 */
 .text-white {
