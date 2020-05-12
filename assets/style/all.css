@@ -453,7 +453,7 @@ html, body {
     width: 48%; }
   .classic .classic-img {
     width: 66%; }
-  .classic li:nth-child(2) img {
+  .classic .classic-list li:nth-child(2) img {
     width: 100%; }
   .classic .p-img {
     position: relative; }
@@ -486,25 +486,25 @@ html, body {
               justify-content: flex-end; }
       .classic .classic-list li:nth-child(2) h3 {
         margin-right: 0; }
-    .classic .classic-list-item {
+    .classic .classic-list .classic-list-item {
       margin-bottom: 8px; }
-    .classic img,
-    .classic .p-img {
+    .classic .classic-list img,
+    .classic .classic-list .p-img {
       width: 50%;
       margin-right: 0; }
-    .classic .classic-subtitle {
+    .classic .classic-list .classic-subtitle {
       font-size: 28px;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
       width: 50%; }
-    .classic .classic-diamond-icon {
+    .classic .classic-list .classic-diamond-icon {
       width: 32px;
       height: 25.16px; }
-    .classic .classic-sun-icon {
+    .classic .classic-list .classic-sun-icon {
       width: 32px;
       height: 32px; }
-    .classic .classic-lightning-icon {
+    .classic .classic-list .classic-lightning-icon {
       width: 23px;
       height: 32px; } }
 
@@ -514,12 +514,12 @@ html, body {
     padding-bottom: 24px; }
     .classic .classic-title {
       margin-bottom: 16px; }
-    .classic .classic-list-item {
+    .classic .classic-list .classic-list-item {
       position: relative; }
-    .classic img,
-    .classic .p-img {
+    .classic .classic-list img,
+    .classic .classic-list .p-img {
       width: 100%; }
-    .classic .classic-subtitle {
+    .classic .classic-list .classic-subtitle {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -529,9 +529,9 @@ html, body {
       z-index: 100;
       white-space: nowrap;
       color: #fff; }
-    .classic .classic-diamond-icon,
-    .classic .classic-sun-icon,
-    .classic .classic-lightning-icon {
+    .classic .classic-list .classic-diamond-icon,
+    .classic .classic-list .classic-sun-icon,
+    .classic .classic-list .classic-lightning-icon {
       -webkit-filter: brightness(500);
               filter: brightness(500); } }
 
